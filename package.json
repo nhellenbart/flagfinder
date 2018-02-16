@@ -5,7 +5,7 @@
 	"main": "flagfinder.js",
 	"scripts": {
 		"test": "node test.js",
-		"format": "yarn prettier --write *.js *.json *.md"
+		"format": "prettier --write *.js *.json *.md"
 	},
 	"author": "Niklas Hellenbart",
 	"homepage": "https://nkls.de/",
