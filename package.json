@@ -7,12 +7,18 @@
 		"test": "jest",
 		"format": "prettier --write *.js *.json *.md"
 	},
+	"jest": {
+		"collectCoverage": true,
+		"coverageDirectory": "coverage",
+		"coverageReporters": ["json", "text"]
+	},
 	"author": "Niklas Hellenbart",
 	"homepage": "https://nkls.de/",
 	"license": "MIT",
 	"dependencies": {},
 	"devDependencies": {
 		"jest": "^22.3.0",
+		"jest-cli": "^22.3.0",
 		"prettier": "^1.10.2"
 	}
 }

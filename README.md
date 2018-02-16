@@ -17,4 +17,4 @@ returns `[ 'DE', 'NL', 'FI' ]`
 
 ## Testing
 
-Call `npm test` to run the testing using [jest](https://facebook.github.io/jest/).
+Call `npm test` to run the testing using [jest](https://facebook.github.io/jest/). You can check the test coverage by `npm run coverage`.
