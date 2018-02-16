@@ -14,3 +14,7 @@ flagfinder('Foo 🇩🇪 foobar 🇳🇱🇫🇮 baz')
 ```
 
 returns `[ 'DE', 'NL', 'FI' ]`
+
+## Testing
+
+Call `npm test` to run the testing using [jest](https://facebook.github.io/jest/).

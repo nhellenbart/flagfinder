@@ -4,7 +4,7 @@
 	"description": "Detects Emoji flags in text.",
 	"main": "flagfinder.js",
 	"scripts": {
-		"test": "node test.js",
+		"test": "jest",
 		"format": "prettier --write *.js *.json *.md"
 	},
 	"author": "Niklas Hellenbart",
@@ -12,6 +12,7 @@
 	"license": "MIT",
 	"dependencies": {},
 	"devDependencies": {
+		"jest": "^22.3.0",
 		"prettier": "^1.10.2"
 	}
 }
