@@ -1,0 +1,17 @@
+{
+	"name": "flagfinder",
+	"version": "0.1.0",
+	"description": "Detects Emoji flags in text.",
+	"main": "flagfinder.js",
+	"scripts": {
+		"test": "node test.js",
+		"format": "yarn prettier --write *.js *.json"
+	},
+	"author": "Niklas Hellenbart",
+	"homepage": "https://nkls.de/",
+	"license": "MIT",
+	"dependencies": {},
+	"devDependencies": {
+		"prettier": "^1.10.2"
+	}
+}
