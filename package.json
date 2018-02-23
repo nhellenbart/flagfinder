@@ -1,6 +1,6 @@
 {
 	"name": "flagfinder",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Detects Emoji flags in text.",
 	"main": "flagfinder.js",
 	"scripts": {
@@ -12,9 +12,10 @@
 		"coverageDirectory": "coverage",
 		"coverageReporters": ["json", "text"]
 	},
-	"author": "Niklas Hellenbart",
-	"homepage": "https://nkls.de/",
+	"author": "Niklas Hellenbart <niklas.hellenbart@gmail.com> (https://nkls.de)",
+	"homepage": "https://github.com/nhellenbart/flagfinder",
 	"license": "MIT",
+	"keywords": ["emoji", "flag", "country", "flagfinder"],
 	"dependencies": {},
 	"devDependencies": {
 		"jest": "^22.3.0",

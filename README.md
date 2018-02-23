@@ -10,7 +10,7 @@ Simply call the exported method with the input text containing Emoji flags as `S
 
 ```
 const flagfinder = require('./flagfinder.js');
-flagfinder('Foo 🇩🇪 foobar 🇳🇱🇫🇮 baz')
+flagfinder('Foo 🇩🇪 foobar 🇳🇱🇫🇮 baz');
 ```
 
 returns `[ 'DE', 'NL', 'FI' ]`
